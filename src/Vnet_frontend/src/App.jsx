@@ -14,17 +14,33 @@ function App() {
   }
 
   return (
-    <main>
-      <img src="/logo2.svg" alt="DFINITY logo" />
-      <br />
-      <br />
-      <form action="#" onSubmit={handleSubmit}>
-        <label htmlFor="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
-      </form>
-      <section id="greeting">{greeting}</section>
-    </main>
+    <div>
+        <div className='navvar'>
+        <nav>
+        <img className='imglogo'src='https://imgs.search.brave.com/sdyfCwfg9itX4Xw_DLJO-0WcI4Hk73zlt3ROH-lyJfY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2YxLzM0/L2IzL2YxMzRiM2Y5/ZTFlOWZkZjI3ZDQy/NjlhYmYyNWQwZmJi/LmpwZw'></img>
+        <input type="button" value="S.O,S" className='sosb'></input>
+        <input type="button" value="ICP LOGIN" className='loginb'></input>
+        </nav>
+        </div>
+      
+        <hr></hr>
+
+        <div className='graycont'>
+          <h2 className='enca'>VNET </h2>
+          <br></br>
+          <br></br>
+         <p className='pvnet'>A donde quieres ir hoy?</p>
+         <input typeof='text' placeholder='Ubicacion' className='botonubicacion'></input>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
   );
 }
 

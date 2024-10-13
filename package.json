@@ -24,8 +24,10 @@
   "license": "ISC",
   "dependencies": {
     "azle": "^0.22.0",
+    "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "react-bootstrap": "^2.10.5"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
