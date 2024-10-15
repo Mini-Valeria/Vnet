@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import { Vnet_backend } from 'declarations/Vnet_backend';
+import { AuthButton } from '@bundly/ic-react';
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');</style>
 
 function App() {
   const [greeting, setGreeting] = useState('');
@@ -19,14 +22,14 @@ function App() {
       <header className='header'>
         
       <div className='logo'>
-      <img className='logoimg' src='/src/imgs/logoimg.png'></img>
+      <img className='logoimg' src='./src/assets/images/logoimg.png'></img>
       
       
       </div>
 
           <nav>
               <a href='#' className='navlink'>S.O.S</a>
-              <a href='#' className='navlink '>login</a>
+              <a href='#' className='navlink '>Login</a>
               <a href='#' className='navlink '>About</a>
               <a href='#' className='navlink '>Account</a>
           </nav>
@@ -38,7 +41,7 @@ function App() {
           <h1>Vnet</h1>
         <p >Ingresa tu destino</p>
           <input type='text' placeholder='Ubicacion'  className='textin'></input>
-          <a href='map.jsx' className='botin' target = 'map.jsx'></a>
+          <a href='map.jsx' className='botin' target = 'map.html'>🔍</a>
         </div>
         </div>
         

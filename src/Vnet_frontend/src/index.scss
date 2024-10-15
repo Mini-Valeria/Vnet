@@ -1,3 +1,11 @@
+.quicksand{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -59,17 +67,16 @@ nav{
   display: flex;
 }
 .logoimg{
-  width: 40px;
-  height: 40px;
-  margin: 5px;
+  width: 75px;
+  height: 75px;
+  margin: 2px;
   margin-left: 100px;
   justify-content: start;
-  border-radius: 50%;
 }
 
 
 .p{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Quicksand';
   margin: 0 auto;
   background-color: rgba(225, 219, 219, 0.637);
   
@@ -109,11 +116,13 @@ nav{
 }
 
 .botin{
-  height: 30px;
-  width: 30px;
+  height: 28px;
+  width: 28px;
   background-color: black;
   border-radius: 30%;
   border-radius: 20%;
+  text-decoration: none;
+  text-align: center;
 }
 .botin:hover{
   background-color: white;
@@ -123,4 +132,8 @@ nav{
   border-radius: 0%;
   width: 100px;
   height: 40px;
+}
+
+li{
+  list-style: none;
 }
