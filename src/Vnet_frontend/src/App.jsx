@@ -14,33 +14,38 @@ function App() {
   }
 
   return (
-    <div>
-        <div className='navvar'>
-        <nav>
-        <img className='imglogo'src='https://imgs.search.brave.com/sdyfCwfg9itX4Xw_DLJO-0WcI4Hk73zlt3ROH-lyJfY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2YxLzM0/L2IzL2YxMzRiM2Y5/ZTFlOWZkZjI3ZDQy/NjlhYmYyNWQwZmJi/LmpwZw'></img>
-        <input type="button" value="S.O,S" className='sosb'></input>
-        <input type="button" value="ICP LOGIN" className='loginb'></input>
-        </nav>
-        </div>
+    <div className='p'>
+      <meta name='viewport' content='widht=device-widht, initial-scale=1.0'></meta>
+      <header className='header'>
+        
+      <div className='logo'>
+      <img className='logoimg' src='/src/imgs/logoimg.png'></img>
       
-        <hr></hr>
+      
+      </div>
 
-        <div className='graycont'>
-          <h2 className='enca'>VNET </h2>
-          <br></br>
-          <br></br>
-         <p className='pvnet'>A donde quieres ir hoy?</p>
-         <input typeof='text' placeholder='Ubicacion' className='botonubicacion'></input>
+          <nav>
+              <a href='#' className='navlink'>S.O.S</a>
+              <a href='#' className='navlink '>login</a>
+              <a href='#' className='navlink '>About</a>
+              <a href='#' className='navlink '>Account</a>
+          </nav>
+        </header>
+        <hr className='hr'></hr>
+        <div className='contenedorpadre'>
+        <div className='conthijo'>
+        <div className='contlabel'>
+          <h1>Vnet</h1>
+        <p >Ingresa tu destino</p>
+          <input type='text' placeholder='Ubicacion'  className='textin'></input>
+          <a href='map.jsx' className='botin' target = 'map.jsx'></a>
         </div>
-
-
-
-
-
-
-
-
-    </div>
+        </div>
+        
+        <hr className='hr'></hr>
+        </div>
+        
+   </div>
   );
 }
 
