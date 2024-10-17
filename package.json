@@ -23,18 +23,31 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@bundly/ic-core-js": "^0.4.3",
-    "@bundly/ic-react": "^0.4.3",
+    "@connect2ic/core": "^0.2.0-beta.24",
+    "@connect2ic/react": "^0.2.0-beta.24",
+    "@dfinity/agent": "^2.1.2",
+    "@dfinity/candid": "^2.1.2",
+    "@react-google-maps/api": "^2.20.3",
+    "axios": "^1.7.7",
     "azle": "^0.22.0",
     "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "leaflet": "^1.9.4",
+    "mongodb": "^5.9.2",
+    "mongoose": "^8.7.1",
+    "mysql2": "^3.11.3",
     "react-bootstrap": "^2.10.5",
-    "react-router": "^6.27.0",
-    "react-router-dom": "^6.27.0"
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.27.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.0"
+    "@types/express": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
   }
 }
