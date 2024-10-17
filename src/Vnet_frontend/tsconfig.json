@@ -5,7 +5,7 @@
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
     "skipLibCheck": true,
-    "esModuleInterop": false,
+    "esModuleInterop": true,  // Cambié esto a true para mejor compatibilidad con TypeORM
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
@@ -15,7 +15,11 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vite/client"]
+    "types": ["vite/client", "reflect-metadata"],  // Añadido reflect-metadata para TypeORM
+    "experimentalDecorators": true,  // Habilitado para las entidades de TypeORM
+    "emitDecoratorMetadata": true,   // Habilitado para las entidades de TypeORM
+    "outDir": "./dist"  // Directorio de salida para los archivos compilados
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }

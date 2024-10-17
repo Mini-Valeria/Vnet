@@ -1,20 +1,15 @@
-import { useState } from 'react';
-import { Vnet_backend } from 'declarations/Vnet_backend';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Form from 'react-bootstrap/Form';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
-function App() {
-  const [greeting, setGreeting] = useState('');
 
-  function handleSubmit(event) {
-    event.preventDefault();
-    const name = event.target.elements.name.value;
-    Vnet_backend.greet(name).then((greeting) => {
-      setGreeting(greeting);
-    });
-    return false;
-  }
+export default function App() {
+  
 
-  return (
-    <div className='p'>
+  return(
+    <main>
+      <div className='p'>
       <meta name='viewport' content='widht=device-widht, initial-scale=1.0'></meta>
       <header className='header'>
         
@@ -25,8 +20,8 @@ function App() {
       </div>
 
           <nav>
-              <a href='#' className='navlink'>S.O.S</a>
-              <a href='#' className='navlink '>login</a>
+              <a href='/sos' className='navlink'>S.O.S</a>
+              <a href='https://identity.ic0.app/' className='navlink '>login</a>
               <a href='#' className='navlink '>About</a>
               <a href='#' className='navlink '>Account</a>
           </nav>
@@ -35,10 +30,14 @@ function App() {
         <div className='contenedorpadre'>
         <div className='conthijo'>
         <div className='contlabel'>
+        
           <h1>Vnet</h1>
         <p >Ingresa tu destino</p>
-          <input type='text' placeholder='Ubicacion'  className='textin'></input>
-          <a href='map.jsx' className='botin' target = 'map.jsx'></a>
+        <Form>
+        <Form.Control type='email' placeholder='Ubicacion' />
+    </Form>
+    <br></br>
+          <a href='/Home' className='botin'></a>
         </div>
         </div>
         
@@ -46,7 +45,12 @@ function App() {
         </div>
         
    </div>
-  );
+
+    </main>
+  )
+  
+
+
 }
 
-export default App;
+  
