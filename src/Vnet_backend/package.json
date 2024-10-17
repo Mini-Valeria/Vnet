@@ -5,5 +5,8 @@
     "type": "module",
     "dependencies": {
         "azle": "^0.22.0"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2"
     }
 }
