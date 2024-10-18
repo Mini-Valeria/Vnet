@@ -20,11 +20,19 @@ body{
   margin: 20px auto;
 }
 
+.hr2{
+  color: #ffffff;
+  width: 95%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+
 .header{
   display: flex;
   width: 95%;
   max-width: 1000px;
-  background-image: url('./imgs/background.jpg');
+  background-image: url('./imgs/background2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -47,18 +55,19 @@ nav{
   margin: 0;
   padding: 10px;
   text-decoration: none;
-  color: black;
+  color: #ffffff;
   margin-left: 50px;
   margin-right: 50px;
   font-family: "Nunito", sans-serif;
-  font-size: 10px;
+  font-size: 15px;
+  font-style: bold;
   font-weight: 500;
 }
 
 .navlink:hover{
-  background-color: #132442;
+  background-color: #211436;
   border-radius: 30px;
-  color: white;
+  color: #a792c5;
 }
 
 .logo{
@@ -80,25 +89,40 @@ nav{
   font-weight: 400;
   font-style: normal;
   margin: 0 auto;
-  color: black;
+  color: #a792c5;
 }
 
-.p2{
+.p1{
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   margin: auto;
   margin-left: 25px;
+  color: #a792c5;
+  margin-left: 25px;
+}
+
+.p2{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+  margin: auto;
+  margin-left: 25px;
   color: black;
 }
 
 p{
-  color: black;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #a792c5;
 }
 
 .contenedorpadre{
-  background-image: url('./imgs/background.jpg');
+  background-image: url('./imgs/background2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -116,7 +140,25 @@ p{
   align-items: center;
 }
 
+.conthijo2{
+  background-image: url('./imgs/backg.avif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 95%;
+  max-width: 1000px;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
 .contlabel{
+  background-image: url('./imgs/carretera.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   display: flex;
   margin: auto;
   background-color: whitesmoke;
@@ -176,14 +218,14 @@ p{
 .botin{
   height: 25px;
   width: 25px;
-  background-color: #132442;
+  background-color: #211436;
   border-radius: 30%;
   border-radius: 20%;
   text-decoration: none;
 }
 
 .botin:hover{
-  background-image: url('./imgs/background.jpg');
+  background-image: url('./imgs/background2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -222,8 +264,4 @@ a {
   margin-top: 10px;
   align-items: left;
   justify-content: safe;
-}
-
-.p1{
-  margin-left: 25px;
 }

@@ -14,14 +14,13 @@ export default function App() {
 
           <nav>
               <a href="javascript: history.go(-1)" className='navlink'>◀</a>
-              <a href='/sos' className='navlink'>S.O.S</a>
-              <a href='https://identity.ic0.app/' className='navlink'>Login</a>
-              <a href='#' className='navlink '>About</a>
-              <a href='#' className='navlink '>Account</a>
+              <a href='https://www.aguascalientes.gob.mx/estado/emergencias.html' className='navlink'>Eᴍᴇʀɢᴇɴᴄɪᴀ</a>
+              <a href='https://identity.ic0.app/' className='navlink'>Lᴏɢɪɴ</a>
+              <a href='#' className='navlink '>Aʙᴏᴜᴛ</a>
           </nav>
 
         </header>
-        <hr className='hr'></hr>
+        <hr className='hr2'></hr>
         <div className='contenedorpadre'>
         <div className='conthijo'>
         <div className='contlabel'>
@@ -36,7 +35,7 @@ export default function App() {
         </div>
         </div>
         
-        <hr className='hr'></hr>
+        <hr className='hr2'></hr>
         <div className='contlabel2'>
         <h3 className='p2'>Recientes</h3>
         <p className='p1'>Feedbacks</p>
