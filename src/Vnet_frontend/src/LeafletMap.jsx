@@ -50,11 +50,11 @@ const LeafletMap = () => {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <button onClick={getCurrentLocation} style={{ marginBottom: "20px" }}>
+      <button onClick={getCurrentLocation}>
         Obtener mi ubicación
       </button>
       {error && <p style={{ color: "red" }}>{error}</p>}  {/* Mostrar error si ocurre */}
-      <MapContainer center={position} zoom={13} style={{ height: "500px", width: "700px", margin: 'auto', marginTop: "40px" }}>
+      <MapContainer center={position} zoom={13} style={{ height: "500px", width: "700px", margin: 'auto', marginTop: "10px", marginBottom: "30px" }}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

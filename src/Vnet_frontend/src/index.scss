@@ -240,7 +240,7 @@ p{
 .hijo{
   display: flex;
   margin: 0 auto;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   width: 95%;
   margin: 10px;
 }
@@ -251,7 +251,10 @@ p{
 }
 
 .mapcontai{
- background-color: rgba(225, 219, 219, 0.637);
+  background-image: url('./imgs/background2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;;
 }
 
 a {
