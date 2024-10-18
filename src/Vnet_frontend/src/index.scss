@@ -5,14 +5,12 @@
   padding: 0;
 }
 
-.fondoOscuro {
-	content:'';
-	position: absolute;
-        top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.6);
+body{
+  background-image: url('./imgs/backg2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #d1d1d1;
 }
 
 .hr{
@@ -26,7 +24,10 @@
   display: flex;
   width: 95%;
   max-width: 1000px;
-  background-color: rgb(96, 98, 119);
+  background-image: url('./imgs/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   margin: 5px auto;
   align-items: center;
   border-radius: 3%;
@@ -49,15 +50,15 @@ nav{
   color: black;
   margin-left: 50px;
   margin-right: 50px;
-  font-family:"Poppins",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 10px;
   font-weight: 500;
 }
 
 .navlink:hover{
-  background-color: black;
-  color: white;
+  background-color: #132442;
   border-radius: 30px;
+  color: white;
 }
 
 .logo{
@@ -79,7 +80,29 @@ nav{
   font-weight: 400;
   font-style: normal;
   margin: 0 auto;
-  background-color: rgba(225, 219, 219, 0.637); 
+  color: black;
+}
+
+.p2{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: auto;
+  margin-left: 25px;
+  color: black;
+}
+
+p{
+  color: black;
+}
+
+.contenedorpadre{
+  background-image: url('./imgs/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #d1d1d1;
 }
 
 .conthijo{
@@ -153,14 +176,17 @@ nav{
 .botin{
   height: 25px;
   width: 25px;
-  background-color: black;
+  background-color: #132442;
   border-radius: 30%;
   border-radius: 20%;
   text-decoration: none;
 }
 
 .botin:hover{
-  background-color: white;
+  background-image: url('./imgs/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .logovnetx{
@@ -196,11 +222,6 @@ a {
   margin-top: 10px;
   align-items: left;
   justify-content: safe;
-}
-
-.h3{
-  margin: auto;
-  margin-left: 25px;
 }
 
 .p1{

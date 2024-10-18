@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 
 export default function App() {
   return(
-    <main>
+    <main className='main'>
       <div className='p'>
       <meta name='viewport' content='widht=device-widht, initial-scale=1.0'></meta>
       <header className='header'>
@@ -26,8 +26,8 @@ export default function App() {
         <div className='conthijo'>
         <div className='contlabel'>
         
-          <h1>Vnet</h1>
-        <p >Ingresa tu destino</p>
+          <h1 className='p'>Vnet</h1>
+        <p>Ingresa tu destino</p>
         <Form>
         <Form.Control placeholder='Ubicacion' />
     </Form>
@@ -38,13 +38,13 @@ export default function App() {
         
         <hr className='hr'></hr>
         <div className='contlabel2'>
-        <h3 className='h3'>Recientes</h3>
+        <h3 className='p2'>Recientes</h3>
         <p className='p1'>Feedbacks</p>
         <hr className='hr' />
         
         <div className='contlabel2'>
           <div className='contBox'>
-            <div className='card' src='./imgs/background.jpg'>
+            <div className='card'>
               <div className='textos'>
               <h5>Ubicación 1</h5>
               <p>Descripción</p>
