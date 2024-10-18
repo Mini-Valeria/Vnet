@@ -9,22 +9,19 @@ export default function Home () {
         
         <div className='logo'>
         <img className='logoimg' src='/src/imgs/png.png'></img>
-        
-        
         </div>
   
             <nav>
                 <a href="javascript: history.go(-1)" className='navlink'>◀</a>
-                <a href='#' className='navlink'>S.O.S</a>
-                <a href='/login' className='navlink '>Login</a>
-                <a href='#' className='navlink '>About</a>
-                <a href='#' className='navlink '>Account</a>
+                <a href='https://www.aguascalientes.gob.mx/estado/emergencias.html' className='navlink'>Eᴍᴇʀɢᴇɴᴄɪᴀ</a>
+                <a href='https://identity.ic0.app/' className='navlink'>Lᴏɢɪɴ</a>
+                <a href='#' className='navlink '>Aʙᴏᴜᴛ</a>
             </nav>
+  
           </header>
 
-<div className="mapsettings">
-      
-      <LeafletMap />
+    <div className="mapsettings">
+        <LeafletMap />
     </div>
         </main>
        
