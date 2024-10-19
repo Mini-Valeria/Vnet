@@ -1,6 +1,7 @@
 # `Vnet`
+Nuestro proyecto `Vnet` consiste en un portal donde los usuarios pueden dejar sus experiencias en ciertas calles, como por ejemplo pueden ser asaltos, acoso, . Por lo que nuestro portal sería una ayuda para la gente que no conoce de cierta zona y quiere llegar de manera segura.
 
-Welcome to your new `Vnet` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+Nuestro portal cuenta con un sistema con inteligencia artificial que permite ver con colores que tan peligrosa es la zona, con `rojo` de peligroso, `amarillo` de existe cierto riesgo y `verde` de seguro
 
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
