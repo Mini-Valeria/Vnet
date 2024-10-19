@@ -1,16 +1,18 @@
-.quicksand{
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand&display=swap');
 
 *{
   margin: 0;
   padding: 0;
-  
 }
+
+body{
+  background-image: url('./imgs/backg2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #d1d1d1;
+}
+
 .hr{
   color: black;
   width: 95%;
@@ -18,21 +20,27 @@
   margin: 20px auto;
 }
 
-
+.hr2{
+  color: #ffffff;
+  width: 95%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
 
 
 .header{
- 
   display: flex;
   width: 95%;
   max-width: 1000px;
-  background-color: white;
+  background-image: url('./imgs/background2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   margin: 5px auto;
   align-items: center;
   border-radius: 3%;
-  
-  
 }
+
 nav{
   align-items: center;
   margin-top: 20px;
@@ -41,32 +49,31 @@ nav{
   margin: 20px auto;
   justify-content: end;
   margin-right: 250px;
-
 }
 
-.navlink{
-  
+.navlink{ 
   margin: 0;
   padding: 10px;
   text-decoration: none;
-  color: black;
+  color: #ffffff;
   margin-left: 50px;
   margin-right: 50px;
-  font-family:"Poppins",sans-serif;
-  font-size: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-style: bold;
   font-weight: 500;
 }
 
 .navlink:hover{
-  background-color: black;
-  color: white;
+  background-color: #211436;
   border-radius: 30px;
+  color: #a792c5;
 }
-
 
 .logo{
   display: flex;
 }
+
 .logoimg{
   width: 75px;
   height: 75px;
@@ -75,17 +82,55 @@ nav{
   justify-content: start;
 }
 
-
 .p{
-  font-family: 'Quicksand';
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   margin: 0 auto;
-  background-color: rgba(225, 219, 219, 0.637);
-  
+  color: whitesmoke;
+}
+
+.p1{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: auto;
+  margin-left: 25px;
+  color: #a792c5;
+  margin-left: 25px;
+}
+
+.p2{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+  margin: auto;
+  margin-left: 25px;
+  color: whitesmoke;
 }
 
 
+p{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #a792c5;
+}
+
+.contenedorpadre{
+  background-image: url('./imgs/background2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #d1d1d1;
+}
+
 .conthijo{
-  background-color: rgba(225, 219, 219, 0.637);
+  
   width: 95%;
   max-width: 1000px;
   margin:auto;
@@ -96,20 +141,78 @@ nav{
   
 }
 
-
+.conthijo2{
+  background-image: url('./imgs/backg.avif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 95%;
+  max-width: 1000px;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  opacity: 0.5;
+}
 
 .contlabel{
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   display: flex;
   margin: auto;
-  background-color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   max-width: 1000px;
   height: 500px;
   align-items: center;
-  display: flex;
   justify-content: center;
   flex-direction: column;
 }
+
+.contlabel2{
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 1000px;
+  height: 500px;
+  align-items: center;
+  justify-content: safe;
+  flex-direction: column;
+}
+
+.contBox{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card{
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-left: 25px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  width: calc(33.33% - 40px);
+  align-items: center;
+}
+
+.card .textos{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .textin{
   margin: 25px;
   background-color: silver;
@@ -117,16 +220,19 @@ nav{
 }
 
 .botin{
-  height: 28px;
-  width: 28px;
-  background-color: black;
+  height: 25px;
+  width: 25px;
+  background-color: #211436;
   border-radius: 30%;
   border-radius: 20%;
   text-decoration: none;
-  text-align: center;
 }
+
 .botin:hover{
-  background-color: white;
+  background-image: url('./imgs/background2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .logovnetx{
@@ -143,7 +249,6 @@ nav{
   margin: 10px;
 }
 
-
 .mapsetings{
   width: 85%;
   height: 90%;
@@ -151,4 +256,16 @@ nav{
 
 .mapcontai{
  background-color: rgba(225, 219, 219, 0.637);
+}
+
+a {
+  text-decoration: none;
+}
+
+.h4{
+  display: flex;
+  margin-left: 25px;
+  margin-top: 10px;
+  align-items: left;
+  justify-content: safe;
 }

@@ -1,37 +1,42 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.scss";
-import App from "./App";
+import { Client, InternetIdentity } from "@bundly/ares-core";
+import { IcpConnectContextProvider } from "@bundly/ares-react";
+import MyMap from "./LeafletMap";
 import Home from "./Home";
-import Login from "./Login";
-import SOS from "./SOS";
+import App from "./App";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>
-  },
-  {
-    path: "/home",
     element: <Home></Home>
   },
   {
-    path: "/login",
-  element: <Login></Login>
-  },
-  {
-    path: "/sos",
-  element: <SOS></SOS>
+    path: "/map",
+    element: <MyMap></MyMap>
   }
-  
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+const client = Client.create({
+  restCanisters: {
+    backend: {
+      baseUrl: "http://bkyz2-fmaaa-aaaaa-qaaaq-cai.localhost:4943",
+    },
+  },
+  providers: [
+    new InternetIdentity({
+      providerUrl: "http://be2us-64aaa-aaaaa-qaabq-cai.localhost:4943/",
+    }),
+  ],
+});
+
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <IcpConnectContextProvider client={client}>
+      <App></App>
     <RouterProvider router={router} />
-  </React.StrictMode>
+    </IcpConnectContextProvider>
+  </React.StrictMode>,
 );

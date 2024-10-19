@@ -1,8 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form';
+import { useEffect, useState } from 'react';
+import { useRestActor } from "@bundly/ares-react";
 
+function App() {
+  const backend = useRestActor("backend");
 
-export default function App() {
+  useEffect(() => {
+    const res = backend.get("/working");
+    console.log(res)
+  }, [])
   
 
   return(
@@ -46,9 +53,6 @@ export default function App() {
 
     </main>
   )
-  
-
-
 }
 
-  
+export default App;
