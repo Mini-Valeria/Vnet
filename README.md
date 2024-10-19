@@ -1,17 +1,19 @@
 # `Vnet`
 ### Descripción
-Nuestro proyecto `Vnet` consiste en un portal donde los usuarios pueden dejar sus experiencias en ciertas calles, como por ejemplo pueden ser asaltos, acoso, . Por lo que nuestro portal sería una ayuda para la gente que no conoce de cierta zona y quiere llegar de manera segura.
+VNet promete ser una pagina web a la cual puede acudir la gente para crear una ruta por la cual caminar de manera mas segura y conociendo los sucesos que anteriormente han ocurrido en las calles de alrededor del estado ademas de la colorimetria que es la siguiente.
 
-Nuestro portal cuenta con un sistema con inteligencia artificial que permite ver con colores que tan peligrosa es la zona, con `rojo` de **peligroso**, `amarillo` de **existe cierto riesgo** y `verde` de **seguro**, esto con la intención de disminuir las zonas de riesgo y aumentar la confianza de los usuarios permitiendo que cualquier usuario pueda visualizar que zonas le conviene tomar a la hora de ir a cierto lugar o por simplemente tener el conocimiento de ello. Por lo que también para darle más comodidad a los usuarios, se está trabajando en una versión de aplicación movil de nuestro portal, para que no sea necesario abrir el portal desde el navegador y tengas la comodidad de solo abrir la aplicación.
++ `Rojo:` _Inseguro_
++ `Amarillo:` _Poco seguro_
++ `Verde:` _Seguro_
+
+Por lo que el usuario podria elegir tranquilamente por donde llegar a su destino con mas seguridad y tranquilidad ya conociendo los sucesos ocurridos. 
 
 ### Instrucciones de ejecución
-To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
-
 Para aprender más antes de iniciar con `Vnet`, puedes checar la siguiente documentación:
 - [Quick Start](https://internetcomputer.org/docs/current/developer-docs/setup/deploy-locally)
 - [SDK Developer Tools](https://internetcomputer.org/docs/current/developer-docs/setup/install)
 
-Después de haber leído (si es que eres nuevo en esto) puedes clonar este repositorio con ```git clone``` y la URL del repositorio (la cual se encuentra en la pestaña de color verde ```<> Code```
+Después de haber leído (si es que eres nuevo en esto) puedes clonar este repositorio con `git clone` y la `URL` del repositorio (la cual se encuentra en la pestaña de color verde `<> Code`, el comando `git clone` tienes que ponerlo en tu terminal de ubuntu (es necesario en ubuntu ya que ahí es donde los canisters funcionan
 
 Si ya tienes lo necesario para continuar, sigue los pasos a continuación:
 ```bash
@@ -20,8 +22,7 @@ dfx help
 dfx canister --help
 ```
 
-## Running the project locally
-
+## Ejecutando el código en local
 If you want to test your project locally, you can use the following commands:
 
 ```bash
