@@ -2,8 +2,9 @@
 ### Descripción
 Nuestro proyecto `Vnet` consiste en un portal donde los usuarios pueden dejar sus experiencias en ciertas calles, como por ejemplo pueden ser asaltos, acoso, . Por lo que nuestro portal sería una ayuda para la gente que no conoce de cierta zona y quiere llegar de manera segura.
 
-Nuestro portal cuenta con un sistema con inteligencia artificial que permite ver con colores que tan peligrosa es la zona, con `rojo` de **peligroso**, `amarillo` de **existe cierto riesgo** y `verde` de **seguro**
+Nuestro portal cuenta con un sistema con inteligencia artificial que permite ver con colores que tan peligrosa es la zona, con `rojo` de **peligroso**, `amarillo` de **existe cierto riesgo** y `verde` de **seguro**, esto permitiendo que cualquier usuario pueda utilizar el portal de la forma más cómoda posible. Y para más comodidad se está trabajando en una versión de aplicación movil de nuestro portal, para que no sea necesario abrir el portal desde el navegador y tengas la comodidad de solo abrir la aplicación.
 
+###Instrucciones de ejecución
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
 To learn more before you start working with `Vnet`, see the following documentation available online:
