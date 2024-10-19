@@ -2,18 +2,18 @@
 ### Descripción
 Nuestro proyecto `Vnet` consiste en un portal donde los usuarios pueden dejar sus experiencias en ciertas calles, como por ejemplo pueden ser asaltos, acoso, . Por lo que nuestro portal sería una ayuda para la gente que no conoce de cierta zona y quiere llegar de manera segura.
 
-Nuestro portal cuenta con un sistema con inteligencia artificial que permite ver con colores que tan peligrosa es la zona, con `rojo` de **peligroso**, `amarillo` de **existe cierto riesgo** y `verde` de **seguro**, esto permitiendo que cualquier usuario pueda utilizar el portal de la forma más cómoda posible. Y para más comodidad se está trabajando en una versión de aplicación movil de nuestro portal, para que no sea necesario abrir el portal desde el navegador y tengas la comodidad de solo abrir la aplicación.
+Nuestro portal cuenta con un sistema con inteligencia artificial que permite ver con colores que tan peligrosa es la zona, con `rojo` de **peligroso**, `amarillo` de **existe cierto riesgo** y `verde` de **seguro**, esto con la intención de disminuir las zonas de riesgo y aumentar la confianza de los usuarios permitiendo que cualquier usuario pueda visualizar que zonas le conviene tomar a la hora de ir a cierto lugar o por simplemente tener el conocimiento de ello. Por lo que también para darle más comodidad a los usuarios, se está trabajando en una versión de aplicación movil de nuestro portal, para que no sea necesario abrir el portal desde el navegador y tengas la comodidad de solo abrir la aplicación.
 
 ### Instrucciones de ejecución
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
-To learn more before you start working with `Vnet`, see the following documentation available online:
-
+Para aprender más antes de iniciar con `Vnet`, puedes checar la siguiente documentación:
 - [Quick Start](https://internetcomputer.org/docs/current/developer-docs/setup/deploy-locally)
 - [SDK Developer Tools](https://internetcomputer.org/docs/current/developer-docs/setup/install)
 
-If you want to start working on your project right away, you might want to try the following commands:
+Después de haber leído (si es que eres nuevo en esto) puedes clonar este repositorio con ```git clone``` y la URL del repositorio (la cual se encuentra en la pestaña de color verde ```<> Code```
 
+Si ya tienes lo necesario para continuar, sigue los pasos a continuación:
 ```bash
 cd Vnet/
 dfx help
